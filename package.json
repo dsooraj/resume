@@ -1,10 +1,9 @@
 {
-	"name": "@sooraj-d-2b132120a/resume",
+	"name": "sooraj-d",
 	"version": "0.0.1",
 	"description": "Display personal resume",
-	"main": "index.js",
 	"bin": {
-		"sooraj-d-2b132120a": "index.js"
+		"sooraj-d": "index.js"
 	},
 	"scripts": {
 		"test": "node index.js",
