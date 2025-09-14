@@ -1,0 +1,25 @@
+{
+	"name": "resume",
+	"version": "0.0.1",
+	"description": "Display personal resume",
+	"main": "index.js",
+	"scripts": {
+		"test": "node index.js",
+		"format": "npx prettier --write .",
+		"lint": "npx eslint ."
+	},
+	"type": "module",
+	"author": "Sooraj D",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^9.35.0",
+		"prettier": "^3.6.2"
+	},
+	"dependencies": {
+		"marked": "^15.0.12",
+		"marked-terminal": "^7.3.0",
+		"pdf-poppler": "^0.2.1",
+		"pdf2pic": "^3.2.0",
+		"terminal-image": "^4.0.0"
+	}
+}
