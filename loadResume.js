@@ -9,6 +9,7 @@ const downloadLink = process.env.RESUME_LINK || resumeLink;
 const filePath = "./resume.pdf";
 
 export const loadResume = async () => {
+    console.log(`-------------LOADING RESUME----------------`);
 	const response = await fetch(downloadLink);
 	if (!response.ok) {
 		console.log(response);

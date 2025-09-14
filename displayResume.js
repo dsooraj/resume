@@ -11,6 +11,8 @@ export const displayResume = async () => {
 		renderer: new TerminalRenderer(),
 	});
 
+    console.log(`-------------RENDERER CREATED----------------`);
+
 	const md = fs.readFileSync(filePath, "utf-8");
 	console.log(marked(md));
 
