@@ -1,10 +1,10 @@
 {
 	"name": "@interlatord/sooraj-d-2b132120a",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Display personal resume",
 	"main": "index.js",
 	"bin": {
-		"@sooraj-d-2b132120a": "./index.js"
+		"sooraj-d-2b132120a": "./index.js"
 	},
 	"scripts": {
 		"test": "node index.js",
